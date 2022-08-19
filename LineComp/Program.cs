@@ -1,4 +1,4 @@
-﻿namespace LineComp
+﻿namespace LineComparison
 {
 	public class Program
 	{
@@ -53,14 +53,21 @@
 			//comparing the lengths of lines 1 & 2
 			if (length == length2)
 			{
-				Console.WriteLine("The given lines are equals: ");
+				Console.WriteLine("The given lines are equals. ");
 			}
 			else
 			{
-				Console.WriteLine("The given lines are not equal: ");
+				Console.WriteLine("The given lines are not equal. ");
 
 			}
-
+			if (length > length2)
+			{
+				Console.WriteLine("The Line1 is greater than line2. ");
+			}
+			else
+			{
+				Console.WriteLine("The line1 is Smaller than line2. ");
+			}
 
 		}
 		public static void Main(string[] args)
